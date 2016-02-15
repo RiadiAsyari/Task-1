@@ -17,7 +17,9 @@
         android:layout_height="82dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:src="@drawable/bingbong"
-        android:adjustViewBounds="false" />
+        android:adjustViewBounds="false"
+
+        />
 
     <TextView
         android:layout_width="match_parent"
