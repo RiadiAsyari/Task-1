@@ -86,12 +86,12 @@ public class MainActivity extends AppCompatActivity
             Intent a = new Intent(MainActivity.this, Home.class);
             startActivity(a);
         } else if (id == R.id.nav_gallery) {
-           // Intent b = new Intent(MainActivity.this, Gallery.class);
-            //startActivity(b);
+            Intent b = new Intent(MainActivity.this, Profile.class);
+            startActivity(b);
 
         } else if (id == R.id.nav_slideshow) {
-            //Intent c = new Intent(MainActivity.this, SlideShow.class);
-            //startActivity(c);
+            Intent c = new Intent(MainActivity.this, Address.class);
+            startActivity(c);
 
         } else if (id == R.id.nav_manage) {
             //Intent d = new Intent(MainActivity.this, Manage.class);
