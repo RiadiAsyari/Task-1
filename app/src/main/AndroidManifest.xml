@@ -19,7 +19,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home"
-            android:label="Home">
+            android:label="@string/Home">
+
+        </activity>
+        <activity android:name=".Profile"
+            android:label="@string/Profile">
+
+        </activity>
+        <activity android:name=".Address"
+            android:label="@string/Address">
 
         </activity>
     </application>

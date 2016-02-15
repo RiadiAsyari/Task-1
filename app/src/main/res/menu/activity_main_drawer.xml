@@ -8,11 +8,11 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/profile"
             android:title="Profile" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/phone"
             android:title="Address" />
         <item
             android:id="@+id/nav_manage"
