@@ -1,5 +1,6 @@
 package com.example.riadi.navigationview;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -82,11 +83,19 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent a = new Intent(MainActivity.this, Home.class);
+            startActivity(a);
         } else if (id == R.id.nav_gallery) {
+           // Intent b = new Intent(MainActivity.this, Gallery.class);
+            //startActivity(b);
 
         } else if (id == R.id.nav_slideshow) {
+            //Intent c = new Intent(MainActivity.this, SlideShow.class);
+            //startActivity(c);
 
         } else if (id == R.id.nav_manage) {
+            //Intent d = new Intent(MainActivity.this, Manage.class);
+            //startActivity(d);
 
         } else if (id == R.id.nav_share) {
 
